@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Garden</title>
+        <meta charset="utf-8">
+        <style>
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#renderCanvas {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+        </style>
+        <!-- Libraries -->
+        <script src="lib/babylon.js"></script>
+        <script src="lib/hand.js"></script>
+    </head>
+    <body>
+
+        <canvas id="renderCanvas"></canvas>
+
+        <!-- Core -->
+        <script src="js/init.js"></script>
+        <script src="js/entity.js"></script>
+        <script src="js/scene.js"></script>
+        <script src="js/spritemanagers.js"></script>
+        <script src="js/animation.js"></script>
+
+        <!-- Game -->
+
+        <script src="js/game/world.js"></script>
+        <script src="js/game/player.js"></script>
+        <script src="js/game/controls.js"></script>
+
+        <!-- Runner -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
